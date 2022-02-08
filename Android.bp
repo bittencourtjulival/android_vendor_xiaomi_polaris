@@ -40,6 +40,13 @@ android_app_import {
 	product_specific: true,
 }
 
+dex_import {
+	name: "com.android.hotwordenrollment.common.util",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+	system_ext_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.0-service-qti",
 	owner: "xiaomi",
